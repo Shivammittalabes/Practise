@@ -1,0 +1,565 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="Resume.css">
+
+    <style>
+        .CS12{
+            background-color: orange;
+            height: 700px;
+            border: 3px solid black;
+            display: flex;            
+            justify-content: center;
+            align-items: center;
+            box-shadow: 10px 15px red, 15px 20px green;
+        }
+        .A1806{
+            background-color: yellow;
+            border: 2px solid black;
+            height: 500px;
+            width: 500px; 
+            margin: 10px;
+            padding: 10px;
+            box-shadow: 5px 5px orangered;
+            box-shadow: inset 5px 5px brown;
+            box-shadow: 25px 15px 10px orangered;
+            box-shadow: 25px 15px 10px 10px orangered;
+        }
+        #h2{
+            margin: 15px;
+            padding: 15px;
+            text-shadow: 5px 6px 1px white;
+            text-shadow: 5px 6px red, 7px 8px green, 9px 10px blue;
+        }
+    </style>
+    
+    <style>
+        .container{
+            height: 1000px;
+            background-color: aqua;
+            border: 5px solid black;
+            margin: 2px;
+            padding: 2px;
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            justify-content: space-evenly;
+            align-items: center;
+            
+            /*align-content: start;*/
+            /*flex-wrap: wrap-reverse;*/
+            /*flex-wrap: nowrap;*/
+            /*flex-direction: column;*/            
+            /*flex-direction: column-reverse;*/
+            /*flex-direction: row-reverse;*/
+        }
+        .Box{
+            height: 200px;
+            width: 200px;
+            border: 3px solid brown;
+            margin: 2px;
+            padding: 2px;
+        }
+        #Box1{
+            background-color: aquamarine;
+            order: 4;
+            flex-shrink: 1;
+            flex-grow: 1;
+        }
+        #Box2{
+            background-color: bisque;
+            flex-grow: 1;
+            flex-grow: 1;
+        }
+        #Box3{
+            background-color: burlywood;
+            flex-grow: 1;
+        }
+        #Box4{
+            background-color: cadetblue;
+            flex-grow: 1;
+        }
+        .Savan{
+            height: 600px;
+            width: 600px;
+            margin: 5px;
+            padding: 5px;
+            background-color: darkorange;
+            border: 5px solid black;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            box-shadow: 10px 15px red;
+        }
+        @media (min-width:300px) and (max-width:600px) {
+            .Savan{
+                background-color: darkseagreen;
+            }            
+        }
+        .SVN{
+            background-color: aqua;
+            border: 5px solid black;
+            margin: 2px;
+            padding: 2px;
+            display: flex;
+        }
+        .Boxy{
+            height: 400px;
+            width: 400px;
+            border: 3px solid black;
+            margin: 3px;
+            padding: 3px;
+        }
+        #Box5{
+            background-color: blue;
+        }
+        #Box6{
+            background-color: blueviolet;
+        }
+        #Box7{
+            background-color: crimson;
+        }
+        #Box8{
+            background-color: red;
+        }
+        @media (min-width: 640px){
+            .SVN{
+                flex-direction: row;
+            }
+        }
+        @media (max-width: 640px){
+            .SVN{
+                flex-direction: column;
+            }
+        }
+    </style>
+
+
+    <style>
+        
+        .container{
+            height: 1000px;
+            background-color: aqua;
+            border: 5px solid black;
+            margin: 2px;
+            padding: 2px;
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            justify-content: space-evenly;
+            align-items: center;
+            /*align-content: start;*/
+            /*flex-wrap: wrap-reverse;*/
+            /*flex-wrap: nowrap;*/
+            /*flex-direction: column;*/            
+            /*flex-direction: column-reverse;*/
+            /*flex-direction: row-reverse;*/
+        }
+        .Box{
+            height: 200px;
+            width: 200px;
+            border: 3px solid brown;
+            margin: 2px;
+            padding: 2px;
+        }
+        #Box1{
+            background-color: aquamarine;
+            order: 4;
+            flex-shrink: 1;
+            flex-grow: 1;
+        }
+        #Box2{
+            background-color: bisque;
+            flex-grow: 1;
+            flex-grow: 1;
+        }
+        #Box3{
+            background-color: burlywood;
+            flex-grow: 1;
+        }
+        #Box4{
+            background-color: cadetblue;
+            flex-grow: 1;
+        }
+    </style>
+<
+    
+</head>
+<body>
+    
+    <div id="D1">
+
+        <div>
+            <h1>Shivam Mittal</h1>
+            <p>Contact No: 7060012595</p>
+            <p>Email Id: <a href="abcd.com">shivammittal.mittal.10@gmail.com</a></p>
+            <p>LinkedIn: <a href="abcd.com">https://www.linkedin.com/in/shivam-mittal-408a31210</a></p>
+        </div>
+
+        <table>
+            <tr>
+                <td>
+                    <img src="ShivamM.jpg" alt="ShivamMittalPic">
+                
+                </td>
+
+                <td>
+                    <ul id="C1">
+                        <li>
+                            I am a passionate software engineer with expertise in problem-solving 
+                            and algorithmic thinking.
+                        </li>
+                        <li>
+                            I love to explore various technologies and frameworks to Develop efficient
+                            and scalable solutions.
+                        </li>
+                        <li>With a strong foundation in data structures and algorithms,
+                            I strive to create robust and optimized code.
+                        </li>
+                        <li> I am constantly expanding 
+                            my skills and staying up-to-date with the latest advancements
+                            in the field of software development.
+                        </li>
+                        <li>
+                            Always ready to learn new skills and develop my own personality in my own
+                        </li>
+                    </ul>
+                </td>
+
+                
+                   
+            </tr>
+        </table>
+
+        <section>
+            
+            <h2>Education:</h2>
+
+            <ul>
+                <li>B.TECH. IN CSE-IOT (2020-2024)
+                    Dr. A.P.J. Abdul Kalam Technical
+                    University ABES Institute of 
+                    Technology
+                </li>
+                <li>INTERMEDIATE (2019-2020)
+                    MG Public School, Muzaffarnagar, 
+                    Percentage: 66%
+                </li>
+                <li>HIGH SCHOOL (2017-2018) 
+                    MG Public School, Muzaffarnagar,
+                    Percentage: 73%
+                </li>
+            </ul>
+        
+
+
+        </section>
+
+        <section>
+
+            <div>
+                <h2>
+                    Work Experience:
+                </h2>
+        
+        
+                <h3>
+                    Software Engineer, ABES
+                </h3>
+        
+                <p>September 2023 - January 2024</p>
+        
+                <ul>
+                    <li>
+                        Developed and maintained web applications using HTML, CSS, and JavaScript
+                    </li>
+                    <li>
+                        Collaborated with cross-functional teams to design and implement software solutions
+                    </li>
+                    <li>
+                        Optimized code performance and improved application efficiency
+                    </li>
+                </ul>
+
+             </div>
+
+             <div>
+
+                <h3>Software Engineer, ABESIT</h3>
+
+                <p>July 2020 - April 2024</p>
+
+
+                <ul>
+                    <li>
+                        Assisted in studying and implementing software modules 
+                    </li>
+                    <li>
+                        Worked on Iot and performance enhancement tasks
+                    </li>
+                </ul>
+
+             </div>
+
+        </section>
+
+        <section>
+
+            <h2>
+                Skills:
+            </h2>
+
+            <ul>
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>JavaScript</li>
+                <li>Java</li>
+                <li>MySqL</li>
+                <li>Google Cloud Platform</li>
+                <li>AR/VR</li>
+            </ul>
+
+        </section>
+
+        <section>
+            <h2>Achievements:</h2>
+
+            <ul>
+                <li>
+                    Certified by Reskill Spark AR successfully participated 
+                    in Open Innovation Hackathon and submitted AR 
+                    Effect
+                </li>
+                <li>
+                    Certified by Full-Stack-Squared successfully 
+                    participated in symbl.ai Summarization Challenge and 
+                    secure the position in Contest Winners
+                </li>
+                <li>
+                    Certified by Azure Developer Community for 
+                    successful participation in Microsoft Azure bootcamp 
+                    AZ-900
+                </li>
+                <li>
+                    Published an research paper on agriculture monitoring system on college level
+                </li>
+            </ul>
+        </section>
+
+        <section>
+            <h2>
+                Projects:
+            </h2>
+
+            <ul>
+                <li>
+                    <h3>
+                        College Webpage
+                    </h3>
+
+                    <p>Developed professional college webpage using 
+                        HTML and CSS
+                    </p>
+                </li>
+                <li>
+                    <h3>
+                        LED Chaser
+                    </h3>
+
+                    <p>
+                      Created “LED Chaser” using Arduino with C 
+                      Language.
+                    </p>
+
+                </li>
+            </ul>
+        </section>
+
+        <section>
+            <h2>Details:</h2>
+            <h1 id="stick">S.M.</h1>
+
+            <div>
+               <details id="DT1">
+                    <summary>
+                        Personal Details
+                    </summary>
+                    <p>
+                        <li>Date of Birth: 15-07-2000</li>
+                        <li>Language known: Hindi, English</li>
+                        <li>Martial Status: Unmarried</li>
+                        <li>Mobile No: 7060012595</li>
+                        <li>Address : Village Post Pinna</li>
+                    </p>
+                </details>
+
+            </div>
+
+            <div>
+
+                <details id="DT2">
+                    <summary>
+                        Family Details
+                    </summary>
+                    <p>
+                        <li>Father's Name: Mr. Naveen Mittal</li>
+                        <li>Occupation: Businessman</li>
+                        <li>Mother's Name: Mrs. Manorama Mittal</li>
+                        <li>Occupation: House Maker</li>
+                        <li>Elder Brother: Sawan Mittal</li>
+                        <li>Occupation: Businessman</li>
+                    </p>
+                </details>
+            </div>
+
+            <div>
+
+                <details id="DT3">
+                    <summary>
+                        General Details
+                    </summary>
+                    <p>
+                        <li>Nationality: Indian</li>
+                        <li>Gender: Male</li>
+                        <li>Hobbies: Listening songs and Interacting with strangers</li>
+                    </p>
+                </details>
+
+            </div>
+          
+        </section>
+
+        <footer>
+            <p>&#169; 2023 Shivam Mittal. All rights reserved</p>
+
+            <div class="container">
+
+
+                <img
+                    src="SM1.jpg"
+                    alt="Poster 1"
+                    width="300px"
+                    height="300px"
+                    class="CL1"
+                />
+
+                <img
+                    src="SM2.jpg"
+                    alt="Poster 2"
+                    width="300px"
+                    height="300px"
+                    class="CL2"
+                />
+
+                <img
+                    src="SM3.jpg"
+                    alt="Poster 3"
+                    width="300px"
+                    height="300px"
+                    class="CL3"
+                />
+
+                <img
+                    src="SM4.jpg"
+                    alt="Poster 4"
+                    width="300px"
+                    height="300px"
+                    class="CL4"
+                />
+                
+                
+            </div>
+
+
+            <div class="Boxes">
+
+                <img
+                    src="SM01.jpg"
+                    alt="Poster 5"
+                    width="300px"
+                    height="300px"
+                    class="CL5"
+                    
+                />
+
+                <P>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Et, incidunt, accusantium repellendus eos hic deleniti totam dolores similique qui blanditiis quis, itaque porro odit nisi aut reprehenderit. Ipsam voluptate consequatur repellendus dignissimos eum nemo quae, ex fugit cum illo tenetur a quis quisquam velit vitae accusamus reiciendis vel rem autem quasi dolorum odio molestias quaerat explicabo. Labore consectetur itaque dolore numquam blanditiis doloremque provident eligendi consequuntur impedit at in, vitae maxime suscipit sequi dolor aspernatur sint fugiat corporis cupiditate similique atque facere ad. Animi atque eos debitis eligendi praesentium saepe maiores, fuga, blanditiis nostrum quia temporibus fugiat, necessitatibus non sit molestiae nulla cum quasi tempora alias! Odit illum magnam neque quibusdam fugit, quam autem provident accusantium doloremque, corporis numquam expedita in! Repellat, maxime! Aut laboriosam ducimus veniam sed! Asperiores sapiente in facilis molestias temporibus voluptatem doloremque fugit labore hic. Voluptas, earum. Velit, quo incidunt. Labore ipsa consequuntur, quisquam nulla aut assumenda optio quas facere recusandae aperiam libero iusto, officiis illum. Voluptatibus reprehenderit deleniti repudiandae saepe officia? Excepturi, recusandae nam! Quidem suscipit eos magni, labore veritatis numquam doloribus nobis et nam. Veniam tempore praesentium quis reprehenderit vitae deleniti non delectus recusandae, enim debitis placeat magni libero sunt facilis dolorum aliquid sequi tempora voluptatum et provident ducimus, amet pariatur accusantium eligendi! Soluta ea, repellendus recusandae voluptatibus modi, doloremque quibusdam excepturi in dolores sed aspernatur itaque eaque laborum dolor natus quos. Culpa expedita ipsam corrupti quisquam porro eligendi molestiae? Quam vitae ullam earum rerum exercitationem! Minus assumenda impedit culpa quasi quae debitis cupiditate perspiciatis reiciendis pariatur veniam magnam veritatis, eligendi aut, qui optio odit. Eveniet ipsum, iure sed facilis voluptate sit dignissimos laudantium placeat natus nisi quisquam in provident, rem aliquam vero soluta commodi aperiam ratione asperiores deleniti quae? Inventore quisquam cum consequatur labore sunt voluptate unde. Quae quasi, quam enim veritatis, ducimus earum animi, dolor vero laudantium odit mollitia impedit numquam adipisci inventore quia? Reprehenderit, magnam? Est officia beatae similique natus ipsum ea, eos sunt nesciunt dolores consectetur in error neque minima eveniet exercitationem praesentium deleniti adipisci delectus molestias minus, accusamus voluptatum. Perferendis temporibus corrupti in sit placeat velit facere voluptate facilis tenetur obcaecati similique accusamus dolorum culpa, ullam porro. Maxime accusantium sunt est delectus temporibus obcaecati cum rem porro minus quam. Quae eos at molestiae et. Accusamus quasi totam quaerat officiis placeat perspiciatis? Molestias alias, cupiditate ipsa voluptates voluptas incidunt minus nobis aperiam rerum, aspernatur eveniet distinctio! Est eveniet, aperiam hic illo quis animi vitae? Repellat, quae vero quis temporibus illo maxime impedit ipsum quibusdam velit, sint laborum quidem beatae officia nostrum, modi omnis debitis deserunt ratione et vel obcaecati. Assumenda veniam adipisci debitis laboriosam aspernatur. Beatae a ut cumque? Aliquam, sequi veniam facere recusandae totam itaque placeat ea, cum similique tenetur molestiae quod quasi doloribus accusamus, perferendis vero aspernatur corrupti velit! Quia ipsum, numquam perferendis accusantium esse eaque omnis! Cupiditate, eveniet laudantium. Ipsum ratione ullam consequatur earum reprehenderit numquam eligendi tempora tenetur, sunt totam voluptate at soluta, necessitatibus eveniet ipsa sapiente aperiam veniam voluptatibus quidem non nemo. Culpa, amet debitis!</P>
+
+                <img
+                    src="SM02.jpg"
+                    alt="Poster 6"
+                    width="300px"
+                    height="300px"
+                    class="CL6"
+                />
+
+                <P>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Libero, cum iusto id quas fugiat, repellendus dolorem dolores nobis est inventore excepturi sequi, reiciendis deleniti quidem quae voluptate. Labore, velit asperiores? Asperiores a dicta quisquam perspiciatis unde vitae in doloribus assumenda repudiandae aut nihil, dolorem placeat veniam incidunt quia voluptatum, officiis optio. Earum cumque quae minima laborum qui doloribus ipsam sit obcaecati? Quos suscipit incidunt commodi, ipsa facere mollitia placeat voluptatem et a accusamus numquam quaerat sunt, deleniti repellendus quisquam accusantium non architecto aperiam labore nesciunt! Nobis vel optio nemo, ut harum tempora numquam enim non corrupti quo nam inventore repellendus, quis ullam suscipit rem provident nostrum sunt? Inventore aperiam enim nobis ipsa minima, consectetur possimus totam corrupti ut repellendus quis iure! Quos recusandae hic debitis consequuntur laboriosam, quia culpa impedit deleniti minima in repellat ipsa quibusdam possimus nobis! Porro doloribus autem delectus molestiae, voluptatem eius. Nulla labore cumque commodi? Sed labore nobis, eaque dolores neque tempora repellendus praesentium magnam laudantium iste! Deserunt, maiores laborum. Atque at consectetur sint quam quasi tempore itaque quae laudantium earum voluptates ea sapiente hic magnam, eaque similique cum incidunt modi nulla voluptatum corrupti nobis, ipsam pariatur dignissimos unde. Cum aliquid suscipit fuga. Ab odio quod facere expedita ipsum iste eos dolorem delectus earum quisquam, ipsam et officia? Eum architecto, incidunt assumenda similique illo minus nihil. Perferendis praesentium doloribus, consequuntur tenetur qui harum sed accusamus ullam, quia hic esse sunt obcaecati officiis ipsam ea nisi. Nesciunt perspiciatis repellat, dolore nisi placeat earum ea pariatur exercitationem repudiandae. Tenetur numquam sit, reprehenderit velit quisquam amet! Soluta dicta ea quas ullam! Quisquam expedita omnis neque, suscipit quasi tenetur et iste praesentium libero ea voluptatum est consequatur exercitationem nam sit aliquid maiores dignissimos velit, magni laboriosam aliquam optio provident tempora? Tempora debitis magnam laborum tenetur, fugiat voluptatem dolorem cupiditate mollitia dolorum adipisci, culpa quaerat ab quibusdam voluptate, explicabo quas aspernatur ad. Consequatur eveniet aliquam quam ipsam laudantium quis eos tempora tenetur dicta, ut iste facere reprehenderit natus maxime excepturi cupiditate molestias dolorem quos dolores illo repudiandae unde laboriosam ratione. Expedita nostrum distinctio magni quos possimus id totam natus odio ratione, sapiente laborum quibusdam, magnam suscipit perspiciatis omnis. Impedit iste suscipit ducimus, vel eum fugit at laudantium odit quas qui ipsam? Ut eaque itaque recusandae mollitia. Dolore porro sapiente delectus facere velit accusamus officia eveniet impedit doloribus distinctio omnis, magni nostrum saepe repellat autem? Necessitatibus consectetur velit eum facere possimus blanditiis laudantium illo animi accusamus praesentium fugiat officia reprehenderit repellendus nesciunt corrupti ex perferendis rerum, dolor sequi nisi beatae? Nulla nobis nesciunt sequi molestias ipsam maxime tempora. Unde, maiores nam? Ex quibusdam non inventore veritatis harum aspernatur? Ex cumque repellat nisi nihil officiis sint porro perspiciatis labore cupiditate. Esse officiis culpa numquam ad sequi rem. Corporis libero, nisi omnis sequi voluptatem dolor ducimus ipsa perspiciatis veniam nesciunt minus, illum cumque tempore perferendis veritatis officia molestiae aut dicta aliquid eum nulla. Illo omnis eligendi tenetur ducimus vel hic voluptatum qui cum nesciunt, recusandae odit enim error mollitia modi dolorum quia! Laborum, eos!</P>
+                
+            </div>
+            
+            <div class="Shivam">
+
+                <div class="Child">A</div>
+                <div class="Child">B</div>
+                <div class="Child">C</div>
+                <div id="Scroll" class="Child">D Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facilis, quisquam tenetur cupiditate rerum illo earum nulla eos maiores quasi quia officia hic sint adipisci, debitis voluptatibus. Rem autem provident ipsa fugiat necessitatibus culpa nisi deserunt minus? Repudiandae enim temporibus cumque consequuntur dolorem porro ut nobis, mollitia quasi, earum unde a labore recusandae, possimus saepe optio autem necessitatibus aliquam dicta rem doloremque rerum eius tenetur nostrum! Sed incidunt quasi ipsam magni optio quidem illo placeat eaque ratione doloremque natus blanditiis aperiam tenetur animi, labore modi ipsum dignissimos voluptate? Vitae assumenda, voluptates dolore, veritatis nulla quas minus repellendus iste eaque, veniam possimus aspernatur modi alias illo ratione dolorum dolorem excepturi adipisci iusto. Deleniti excepturi eaque velit totam aspernatur aut rerum sint officiis similique. Incidunt assumenda quasi, hic, et iste vitae natus quam nesciunt, labore sequi quo quidem tempore omnis voluptate ut at saepe animi ipsam nobis maiores. Nemo enim labore suscipit facilis soluta nulla, itaque laborum, libero fugiat perspiciatis a, iure placeat ipsam ab nam animi deleniti magni! Perferendis, tempora cum. Accusamus delectus nobis asperiores cum excepturi minima tempora, nemo magnam ullam esse mollitia dolor repellat laborum commodi repellendus earum itaque est hic quis. Quam sit necessitatibus autem doloremque consequatur laudantium minus mollitia iste alias tempore ipsa commodi soluta harum maxime quisquam, nihil nostrum sed similique delectus vitae eligendi deleniti perspiciatis cupiditate voluptas? A exercitationem harum repellendus voluptatum alias tempore molestias itaque non blanditiis. Cumque nihil optio distinctio quaerat eveniet ab voluptates, dicta ut soluta voluptate iure id numquam reprehenderit nam, blanditiis consequuntur temporibus nulla ullam, asperiores quidem nisi fuga vero eum culpa! Laborum doloribus ipsa quod provident, expedita sint inventore maiores odit ratione sunt! At dolorum modi quasi earum quos. Necessitatibus mollitia illum blanditiis natus vero eius velit, enim magni. Nihil recusandae, dolore consectetur facilis doloribus ipsum aspernatur nostrum possimus illo maiores dignissimos numquam quae ut earum eveniet facere sed consequuntur, aliquam architecto excepturi! Eaque quae dolores architecto pariatur sequi quidem nesciunt porro esse consectetur placeat nihil, et ratione enim quasi dicta, qui voluptas alias reiciendis ipsum vel dignissimos. Harum ex dolorum temporibus eius eum. Voluptatum officiis perferendis molestiae ut quia, nobis modi labore ipsum reiciendis quod quas accusantium quos asperiores ullam cum molestias corrupti illum laudantium non sapiente sit blanditiis? Ullam iusto nihil earum deleniti quisquam deserunt maiores eos. Dolorum quaerat esse assumenda ea sint fugiat inventore impedit suscipit nemo reprehenderit, odio quia sed tempora explicabo cumque nulla molestias distinctio voluptatem facere error maxime soluta unde placeat. Eos asperiores voluptates quasi laborum minus debitis? Consequatur ullam totam, similique adipisci, atque exercitationem enim laudantium soluta est ipsa ad veniam laboriosam nihil ratione cupiditate sed ea iusto consectetur? Quas assumenda quae, beatae reprehenderit omnis totam, illo laborum architecto veritatis voluptas vero itaque saepe nesciunt facere odio ducimus mollitia ipsum dicta numquam incidunt? Iusto velit quae itaque doloribus vel quibusdam, qui illo esse alias obcaecati sapiente vero asperiores repudiandae eveniet veniam? Cupiditate voluptate odio laboriosam architecto dolor in consequatur quaerat amet hic fugiat error repellat cum modi a explicabo eveniet sunt, laudantium saepe.</div>
+
+            </div>
+            
+            <div class="Shivam">
+
+                <div class="Child">A</div>
+                <div class="Child">B</div>
+                <div class="Child">C</div>
+                <div id="Scroll">D Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facilis, quisquam tenetur cupiditate rerum illo earum nulla eos maiores quasi quia officia hic sint adipisci, debitis voluptatibus. Rem autem provident ipsa fugiat necessitatibus culpa nisi deserunt minus? Repudiandae enim temporibus cumque consequuntur dolorem porro ut nobis, mollitia quasi, earum unde a labore recusandae, possimus saepe optio autem necessitatibus aliquam dicta rem doloremque rerum eius tenetur nostrum! Sed incidunt quasi ipsam magni optio quidem illo placeat eaque ratione doloremque natus blanditiis aperiam tenetur animi, labore modi ipsum dignissimos voluptate? Vitae assumenda, voluptates dolore, veritatis nulla quas minus repellendus iste eaque, veniam possimus aspernatur modi alias illo ratione dolorum dolorem excepturi adipisci iusto. Deleniti excepturi eaque velit totam aspernatur aut rerum sint officiis similique. Incidunt assumenda quasi, hic, et iste vitae natus quam nesciunt, labore sequi quo quidem tempore omnis voluptate ut at saepe animi ipsam nobis maiores. Nemo enim labore suscipit facilis soluta nulla, itaque laborum, libero fugiat perspiciatis a, iure placeat ipsam ab nam animi deleniti magni! Perferendis, tempora cum. Accusamus delectus nobis asperiores cum excepturi minima tempora, nemo magnam ullam esse mollitia dolor repellat laborum commodi repellendus earum itaque est hic quis. Quam sit necessitatibus autem doloremque consequatur laudantium minus mollitia iste alias tempore ipsa commodi soluta harum maxime quisquam, nihil nostrum sed similique delectus vitae eligendi deleniti perspiciatis cupiditate voluptas? A exercitationem harum repellendus voluptatum alias tempore molestias itaque non blanditiis. Cumque nihil optio distinctio quaerat eveniet ab voluptates, dicta ut soluta voluptate iure id numquam reprehenderit nam, blanditiis consequuntur temporibus nulla ullam, asperiores quidem nisi fuga vero eum culpa! Laborum doloribus ipsa quod provident, expedita sint inventore maiores odit ratione sunt! At dolorum modi quasi earum quos. Necessitatibus mollitia illum blanditiis natus vero eius velit, enim magni. Nihil recusandae, dolore consectetur facilis doloribus ipsum aspernatur nostrum possimus illo maiores dignissimos numquam quae ut earum eveniet facere sed consequuntur, aliquam architecto excepturi! Eaque quae dolores architecto pariatur sequi quidem nesciunt porro esse consectetur placeat nihil, et ratione enim quasi dicta, qui voluptas alias reiciendis ipsum vel dignissimos. Harum ex dolorum temporibus eius eum. Voluptatum officiis perferendis molestiae ut quia, nobis modi labore ipsum reiciendis quod quas accusantium quos asperiores ullam cum molestias corrupti illum laudantium non sapiente sit blanditiis? Ullam iusto nihil earum deleniti quisquam deserunt maiores eos. Dolorum quaerat esse assumenda ea sint fugiat inventore impedit suscipit nemo reprehenderit, odio quia sed tempora explicabo cumque nulla molestias distinctio voluptatem facere error maxime soluta unde placeat. Eos asperiores voluptates quasi laborum minus debitis? Consequatur ullam totam, similique adipisci, atque exercitationem enim laudantium soluta est ipsa ad veniam laboriosam nihil ratione cupiditate sed ea iusto consectetur? Quas assumenda quae, beatae reprehenderit omnis totam, illo laborum architecto veritatis voluptas vero itaque saepe nesciunt facere odio ducimus mollitia ipsum dicta numquam incidunt? Iusto velit quae itaque doloribus vel quibusdam, qui illo esse alias obcaecati sapiente vero asperiores repudiandae eveniet veniam? Cupiditate voluptate odio laboriosam architecto dolor in consequatur quaerat amet hic fugiat error repellat cum modi a explicabo eveniet sunt, laudantium saepe.</div>
+
+            </div>
+
+            
+    <div class="container">
+        <div class="Box" id="Box1">SM1</div>
+        <div class="Box" id="Box2">SM2</div>
+        <div class="Box" id="Box3">SM3</div>
+        <div class="Box" id="Box4">SM4</div>
+    </div>
+
+    <div class="container">
+        <div class="Box" id="Box1">SM1</div>
+        <div class="Box" id="Box2">SM2</div>
+        <div class="Box" id="Box3">SM3</div>
+        <div class="Box" id="Box4">SM4</div>
+    </div>
+
+    <div class="Savan">
+        Bhai Ji
+    </div>
+
+    <div class="SVN">
+        <div class="Boxy" id="Box5">SM5</div>
+        <div class="Boxy" id="Box6">SM6</div>
+        <div class="Boxy" id="Box7">SM7</div>
+        <div class="Boxy" id="Box8">SM8</div>
+    </div>
+
+    <div class="CS12">
+
+        <div class="A1806">
+
+            <img src="ShivamM.jpg"/>
+            <h2 id="h2">Welcome to Mangal Bhawan</h2>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Cupiditate ipsum rerum eum vel harum numquam quaerat fuga, nam, incidunt quos voluptatibus. A vero atque cumque!</p>
+        </div>
+    </div>
+        
+
+        </footer>
+    </div>
+</body>
+</html>
+
+                    
+                    
+                    

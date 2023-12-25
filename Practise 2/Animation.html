@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="Style.css">
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing:border-box;
+        }
+        .Mzn{
+            width: 100vw;
+            height: 100vh;
+            background-color: burlywood;
+            margin: 5px;
+            padding: 5px;
+            border: 3px solid black;
+        }
+        .Pinna{
+            width: 300px;
+            height: 100px;
+            margin: 10px;
+            background-color: blue;
+            border-radius: 50px;
+            border: 3px solid black;
+            position: relative;
+            animation-name: Rightmovement;
+            animation-duration: 5s;
+            animation-iteration-count: 5;
+            animation-delay: 2s;
+            animation: linear;
+            animation-timing-function: linear;
+            animation-direction: alternate;
+            animation: 5s linear 1s infinite alternate none running Rightmovement;
+        }
+        @keyframes Rightmovement{
+            from{
+                top:0;
+                left:0;
+            }
+            to{
+                top:0;
+                left: 1350px;
+            }
+        }
+        #Pinna2{
+            width: 300px;
+            height: 100px;
+            margin: 10px;
+            background-color: blue;
+            border-radius: 50px;
+            border: 3px solid black;
+            position: relative;
+            animation: 5s linear 1s infinite alternate none running leftmovement;
+        }
+        @keyframes leftmovement{
+            from{
+                top: 550px;;
+                left:1350px;
+            }
+            to{
+                top: 550px;;
+                left:0;
+            }
+        } 
+        #Circle{
+            width: 100px;
+            height: 100px;
+            margin: 10px;
+            background-color: blue;
+            border-radius: 50px;
+            border: 3px solid black;
+            position: relative;
+            top: 30%;
+            left: 50%;
+            animation: 10s ease-in-out 1s infinite alternate-reverse none running Circlemovement;
+        }
+        @keyframes Circlemovement{
+            0%{
+            top: 1%;
+            left: 5%;
+            }
+            25%{
+            top: 5%;
+            left: 90%;
+            }
+            75%{
+            top: 75%;
+            left: 10%;
+            }
+            100%{
+            top: 70%;
+            left: 90%;
+            }
+        }   
+    </style>
+</head>
+<body>
+    <div class="Mzn">
+
+        <div class="Pinna">            
+        </div>
+
+        
+        <div id="Circle">
+        </div>
+
+        <div id="Pinna2">
+        </div>
+
+    </div>
+
+    <div class="Box">
+        
+        <div class="container">
+
+           <p>
+              My Name is Shivam Mittal
+            </p>
+
+        </div>
+    </div>
+
+    
+</body>
+</html>
